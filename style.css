@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 100%;
+}
+body{
+    background-color: white;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 8%;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+#menu-icon{
+    font-size: 3.6rem;
+    color: black;
+    display: none;
+}
+
+.logo{
+    width: 6rem;
+    height: 3rem;
+    transition: 0.3s;
+}
+
+.navbar a{
+    color: rgb(255, 140, 0);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 2rem;
+}
+
+.btn-login{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    box-shadow: 2.4px 2.4px 12px 0px rgba(32, 32, 32, 0.584);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.awal{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.awal img{
+    border-radius: 30px;
+    width: 73rem;
+    height: 17.5rem;
+}
+
+.container{
+    margin: 20px 9rem;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-header{
+    padding: 2rem 2rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: bisque;
+    color: rgb(57, 57, 57);
+}
+.title{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    font-weight: 550;
+}
+.loc{
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+.loc p{
+    font-weight: 1.2rem;
+    font-weight: 550;
+}
+#prov{
+    font-size: 1.2rem;
+}
+#city{
+    font-size: 1.2rem;
+}
+.table{
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+.table-primary th{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: mediumseagreen;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+.table td{
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(226, 226, 226);
+}
+.table-primary td{
+    color: white;
+    background-color: mediumseagreen;
+    
+}
+.CLT{
+    text-align: center;
+    margin-top: 4rem;
+}
+#MyClockDisplay{
+    margin: 1rem 7rem 3rem 7rem;
+    background-color: orange;
+    color: white;
+    font-size: 7rem;
+    border-radius: 35px;
+    text-align: center;
+}
+.table-primary{
+    transition: 0.8s;
+}
+.table-primary:hover{
+    transform: scale(1.05);
+}
+
+/* ASMAUL HUSNA */
+#result {
+    padding: 2rem 3rem 3rem;
+    margin: 3rem 4rem 4rem;
+    border-radius: 2rem;
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 50fr);
+}
+
+.kotak {
+    width: 18rem;
+    height: 12rem;
+    margin: 0 0 1rem 0;
+    transition: 0.8s;
+    background-color: rgba(0, 255, 255, 0.26);
+    border-radius: 18px;
+}
+
+.kotak:hover {
+    transform: scale(1.1);
+}
+
+.kecil {
+    width: 18rem;
+    border-radius: 5rem;
+    background-color: rgb(167, 167, 167);
+    padding: .3rem 0 .4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+
+.nomor {
+    background: orange;
+    padding: 0 .5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin: .2rem 0 0 0;
+    color: white;
+}
+
+.save {
+    width: .9rem;
+    height: 1.75rem;
+}
+
+.nama {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.arab {
+    padding-right: .5rem;
+    border-radius: 15px;
+    background: rgb(255, 196, 86);
+    margin: .4rem .4rem 0 .4rem;
+    text-align: right;
+    font-size: 2rem;
+    color: white;
+    transition: 0.5s;
+}
+.arab:hover{
+    padding-right: 2rem;
+}
+
+.arti {
+    margin: .3rem .5rem 0 0;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.line {
+    transform: scale(0.9);
+    margin: 1rem 0 0 0;
+    border-top: 3px solid gray;
+}
+
+/* QURAN */
+.ayat {
+    margin: .5rem .5rem 0 0;
+    text-align: right;
+    font-size: 1rem;
+}

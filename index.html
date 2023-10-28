@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubus - Prayer Times</title>
+    <link rel="shortcut icon" href="images/HIZ-removebg-preview.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="images/HIZ-removebg-preview.png" alt="" style="height: 100%;">
+        <i class="bx bx-menu-alt-left" id="menu-icon" style="color: rgb(0, 0, 0);"></i>
+
+        <nav class="navbar">
+            <a href="index.html">Jadwal Solat</a>
+            <a href="asmaul-husna.html">Asmaul Husna</a>
+            <a href="list-surat.html">Al-Quran</a>
+        </nav>
+        <div class="btn">
+            <button class="btn-login">User</button>
+
+        </div>
+    </header>
+    <section class="awal">
+        <img src="images/In.png" alt="">
+    </section>
+
+    <section class="jadwal-solat">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="title">Prayer Times</h5>
+                    <div class="loc">
+                        <p>City/Location: <strong id="city"></strong></p>
+                        <p>Province: <strong id="prov"></strong></p>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="table-primary">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Imsak</th>
+                                    <th>Fajr</th>
+                                    <th>Sunrise</th>
+                                    <th>Dzuhur</th>
+                                    <th>Ashar</th>
+                                    <th>Maghrib</th>
+                                    <th>Isha</th>
+                                </tr>
+                            </thead>
+                            <tbody id="list-jadwal"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="CLT">Current Live Time</h1>
+    <h1 id="MyClockDisplay">
+
+        <img src="images/HIZ-removebg-preview.png" alt="">
+    </h1>
+</body>
+<script src="script.js"></script>
+</html>
